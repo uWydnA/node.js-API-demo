@@ -2,9 +2,10 @@ define({ "api": [
   {
     "type": "get",
     "url": "/api/goods",
-    "title": "",
-    "description": "<p>某电商网站商品列表数据接口及接口文档</p>",
-    "name": "商品列表数据",
+    "title": "接口说明",
+    "description": "<p>接口描述</p>",
+    "name": "接口名称",
+    "group": "所属分组",
     "success": {
       "fields": {
         "Success 200": [
@@ -20,7 +21,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "// 返回数据示例\n{ code:\"100\", msg:\"商品列表数据\", length:数据长度, data:data }",
+          "content": "// 返回数据示例\n{ code:\"200\", msg:\"商品列表数据\", length:数据长度, data:data }",
           "type": "json"
         }
       ]
@@ -32,7 +33,6 @@ define({ "api": [
     ],
     "version": "1.0.0",
     "filename": "api/goods.js",
-    "group": "d:\\Git\\MyGitHub\\node.js-API-demo\\api\\goods.js",
-    "groupTitle": "d:\\Git\\MyGitHub\\node.js-API-demo\\api\\goods.js"
+    "groupTitle": "所属分组"
   }
 ] });
