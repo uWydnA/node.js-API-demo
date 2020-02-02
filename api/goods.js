@@ -6,7 +6,7 @@
         * @apiSuccessExample {json} Success-Response:
         * // 返回数据示例
         * { code:"200", msg:"商品列表数据", length:数据长度, data:data }
-        * @apiSampleRequest http://localhost:3000/api/goods
+        * @apiSampleRequest http://localhost:3000/
         * @apiVersion 1.0.0
         */
 
