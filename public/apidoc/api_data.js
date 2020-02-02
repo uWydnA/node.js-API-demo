@@ -5,6 +5,20 @@ define({ "api": [
     "title": "",
     "description": "<p>某电商网站商品列表数据的接口</p>",
     "name": "商品列表数据",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "a",
+            "defaultValue": "hello",
+            "description": ""
+          }
+        ]
+      }
+    },
     "success": {
       "fields": {
         "Success 200": [
@@ -27,7 +41,7 @@ define({ "api": [
     },
     "sampleRequest": [
       {
-        "url": "http://localhost:3000/"
+        "url": "http://localhost:3000/api/goods"
       }
     ],
     "version": "1.0.0",

@@ -1,12 +1,13 @@
    /**
-        * @api {get} /api/goods
+        * @api {get} /api/goods 
         * @apiDescription 某电商网站商品列表数据的接口
         * @apiName 商品列表数据
+        * @apiParam {String} a=hello
         * @apiSuccess {json} data 请求成功后的数据
         * @apiSuccessExample {json} Success-Response:
         * // 返回数据示例
         * { code:"200", msg:"商品列表数据", length:数据长度, data:data }
-        * @apiSampleRequest http://localhost:3000/
+        * @apiSampleRequest http://localhost:3000/api/goods
         * @apiVersion 1.0.0
         */
 
