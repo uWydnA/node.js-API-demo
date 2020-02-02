@@ -1,6 +1,6 @@
    /**
         * @api {get} /api/goods 
-        * @apiDescription 某电商网站商品列表数据的接口
+        * @apiDescription 某电商网站商品列表数据接口及接口文档
         * @apiName 商品列表数据
         * @apiSuccess {json} data 请求成功后的数据
         * @apiSuccessExample {json} Success-Response:
